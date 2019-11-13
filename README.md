@@ -13,7 +13,7 @@ The following is a high-level overview of the system.
 * **Dispatcher** - Deciphers the logic to send signals to elevators according to their current state through mailbox/queues
 * **IO** - receives and validates user input to operate the elevator system and sends a command to dispatcher through a pipeline. This process is also in charge of drawing the interface shown
 * **Elevator 1, Elevator 2** - Standalone processes that interpret signals received from the dispatcher and store their respective information in independent data pools
-* **ACtive Passengers** - Instances of passengers that spawn randomly to request an elevator
+* **Active Passengers** - Instances of passengers that spawn randomly to request an elevator
 
 
 ## Presentational Images
